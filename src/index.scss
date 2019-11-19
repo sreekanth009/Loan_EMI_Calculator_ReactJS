@@ -8,13 +8,25 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-// APP STYLES
+// App Styles
+
 .emi-calci {
-  .form {
-    padding: 3rem 0;
+  padding: 3rem 0;
+  h1 {
+    margin-top: 0;
+  }
+  form {
+    .MuiFormControl-root {
+      margin-bottom: 1rem; 
+    }
+    .operation-btns {
+      margin-top: 1rem;
+      button {
+        margin-right: 1rem;
+      }
+    }
   }
 }
