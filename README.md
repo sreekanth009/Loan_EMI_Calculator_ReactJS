@@ -6,6 +6,8 @@ With Pie chart representation.
 clone the repo and follow the below steps
 
 git clone https://github.com/sreekanth009/Loan_EMI_Calculator_ReactJS.git
-yarn install
-yarn start
+
+### `yarn install`
+
+### `yarn start`
 
